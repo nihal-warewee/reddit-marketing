@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import HowWeWork from "@/components/HowWeWork";
 import Pricing from "@/components/Pricing";
 import Whyus from "@/components/Whyus";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Whyus />
       <Pricing />
+      <HowWeWork />
     </main>
   );
 }
