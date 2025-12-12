@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section className="relative isolate w-full overflow-clip grid place-items-center">
+        <section className="relative isolate w-full grid place-items-center pt-10 2xl:pt-20 overflow-x-clip">
             <div className="absolute -top-30 -left-60 h-125 w-125 -z-10
              bg-fuchsia-500/10 rounded-full blur-3xl" />
             <div className="absolute top-50 -right-60 h-125 w-125 -z-10
