@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Whyus() {
     return (
-        <section className="relative isolate w-full grid place-items-center pt-20 overflow-x-clip text-white">
+        <section className="relative isolate w-full grid place-items-center pt-20 2xl:pt-40 overflow-x-clip text-white">
             <div className="absolute top-1/2 -left-80 h-125 w-125 -z-10
              bg-fuchsia-500/10 rounded-full blur-3xl" />
 

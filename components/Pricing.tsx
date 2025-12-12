@@ -5,6 +5,10 @@ import { IoIosStar } from "react-icons/io";
 export default function Pricing() {
     return (
         <section className="relative isolate w-full grid place-items-center pt-20 overflow-x-clip text-white">
+            <div className="absolute top-1/2 -right-50 h-125 w-125 -z-10
+             bg-fuchsia-500/10 rounded-full blur-3xl" />
+
+
             <div className="text-center">
                 <h2 className="text-4xl font-extrabold">Choose Your Plan</h2>
                 <p className="text-gray-300 mt-2">Scalable Reddit growth plans for every stage.</p>
@@ -114,7 +118,7 @@ export default function Pricing() {
                     </article>
                 </div>
 
-               
+
                 <p className="mt-6 text-sm text-red-500 italic">
                     Disclaimer: Reddit may remove some posts or comments at any time, which is outside our control.
                     We cannot guarantee that all posts or comments will remain visible.
