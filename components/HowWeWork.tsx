@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { AiOutlineBarChart } from "react-icons/ai";
-import { FiBarChart2, FiEdit2, FiVolume2, FiFileText, FiShield } from "react-icons/fi";
+import { FiEdit2, FiShield } from "react-icons/fi";
 import { HiSpeakerphone } from "react-icons/hi";
 import { LuChartSpline } from "react-icons/lu";
 
@@ -52,9 +52,9 @@ const cards = [
         Icon: FiShield,
         title: "Ongoing Quality & Compliance",
         bullets: [
-            { text: "We vet each subreddit’s rules in advance." },
+            { text: "We vet each subreddit's rules in advance." },
             { text: "We maintain account rotation, avoid “spammy” behaviour, keep posts as genuine contributions." },
-            { text: "We advise transparency and readiness for Reddit’s moderator/community dynamics." },
+            { text: "We advise transparency and readiness for Reddit's moderator/community dynamics." },
         ],
     },
 ];
@@ -87,7 +87,7 @@ export default function HowWeWork() {
                         return (
                             <article
                                 key={c.id}
-                                className="relative flex flex-col justify-between bg-white text-slate-900 rounded-xl min-h-[240px]
+                                className="relative flex flex-col justify-between bg-white text-slate-900 rounded-xl min-h-60
                                 shadow-[0_10px_40px_rgba(0,0,0,0.35)] ring-2 ring-[#7c3aed]/20 overflow-hidden"
                                 role="article"
                                 aria-labelledby={`card-${c.id}-title`}
@@ -128,7 +128,7 @@ export default function HowWeWork() {
                         return (
                             <article
                                 key={c.id}
-                                className="relative flex flex-col justify-between bg-white text-slate-900 rounded-xl min-h-[220px]
+                                className="relative flex flex-col justify-between bg-white text-slate-900 rounded-xl min-h-55
                                 shadow-[0_10px_40px_rgba(0,0,0,0.35)] ring-2 ring-[#7c3aed]/20 overflow-hidden"
                                 role="article"
                                 aria-labelledby={`card-${c.id}-title`}
