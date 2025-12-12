@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
     return (
-        <header className="bg-gray-800 p-3 px-10 flex items-center justify-between font-sans">
+        <header className="bg-gray-900 p-3 px-10 flex items-center justify-between font-sans sticky top-0 z-50">
             <Image src={'/logo.png'} alt="header-logo-png" width={100} height={80} />
             <nav>
                 <ul className="flex text-white gap-6">
