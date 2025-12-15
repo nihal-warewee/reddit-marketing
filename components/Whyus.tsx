@@ -13,7 +13,7 @@ export default function Whyus() {
             </div>
 
 
-            <p className="text-gray-200 text-lg mt-6 max-w-5xl mx-auto px-4">
+            <p className="text-gray-200 text-xs text-center lg:text-left lg:text-lg mt-6 max-w-5xl mx-auto px-4">
                 <span className="font-medium text-white">We have proven results in the AI Companion SaaS space:</span>
                 &nbsp;We delivered more than 70% of the posts/comments ranking for “AI girlfriend” -related keywords in that niche.
             </p>
@@ -21,8 +21,8 @@ export default function Whyus() {
 
             <div className="mt-6 max-w-5xl mx-auto px-4">
 
-                <div className="flex gap-6 items-center">
-                    <div className="flex-1">
+                <div className="grid lg:grid-cols-2 gap-6 items-center">
+                    <div className="">
                         <Image
                             src="/viewsmetric.png"
                             alt="views-metrics"
@@ -32,7 +32,7 @@ export default function Whyus() {
                             className="w-full h-auto object-contain"
                         />
                     </div>
-                    <div className="flex-1">
+                    <div className="">
                         <Image
                             src="/growthmetric.png"
                             alt="growth-metrics"
@@ -46,8 +46,8 @@ export default function Whyus() {
             </div>
             <div className="mt-6 max-w-5xl mx-auto px-4">
 
-                <div className="flex gap-6 items-center">
-                    <div className="flex-1">
+                <div className="grid lg:grid-cols-2 gap-6 items-center">
+                    <div className="flex-1 flex flex-col-reverse lg:block gap-4">
                         <Image
                             src="/saaslanding.png"
                             alt="SaaS-landing-page"
@@ -56,14 +56,14 @@ export default function Whyus() {
                             sizes="(min-width: 1024px) 50vw, 100vw"
                             className="w-full h-auto object-contain"
                         />
-                        <p className="text-gray-200 mt-4 text-sm">
-                            <span className="font-medium text-white text-base">We built our own Reddit-SaaS tool, RedSERP - </span><br />
+                        <p className="text-gray-200 mt-4 text-xs lg:text-sm text-center lg:text-left">
+                            <span className="font-medium text-white text-sm lg:text-base">We built our own Reddit-SaaS tool, RedSERP - </span><br />
                             giving us deeper platform insight, account-network management, karna-profile access and Reddit-SEO intelligence.
                         </p>
                     </div>
                     <div className="flex-1">
-                        <p className="text-gray-200 mb-4 text-sm">
-                            <span className="font-medium text-white text-base">We combine Reddit community insight with SEO and keyword strategy (building on the recognized shift : </span><br />
+                        <p className="text-gray-200 mb-4 text-xs lg:text-sm text-center lg:text-left">
+                            <span className="font-medium text-white text-sm lg:text-base">We combine Reddit community insight with SEO and keyword strategy (building on the recognized shift : </span><br />
                             Reddit threads increasingly dominate Google/LLM ranking in many niches).
                         </p>
                         <Image

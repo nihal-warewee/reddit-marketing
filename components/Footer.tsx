@@ -8,9 +8,9 @@ export default function Footer() {
     return (
         <footer className="relative bg-slate-900 text-slate-200 font-sans overflow-hidden isolate">
 
-            <div className="max-w-6xl 2xl:max-w-[90%] mx-auto px-8 pt-16 pb-90">
+            <div className="max-w-6xl 2xl:max-w-[90%] mx-auto px-8 pt-16 pb-64 lg:pb-90">
 
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col lg:flex-row gap-5 items-center justify-between">
                     <Image src={'/logo.png'} alt="warewe-logo-footer" height={70} width={180} />
 
                     <div className="flex items-center gap-4 text-sm">
@@ -48,7 +48,7 @@ export default function Footer() {
 
 
             <div
-                className=" pointer-events-none absolute left-1/2 bottom-0 transform -translate-x-1/2
+                className=" pointer-events-none absolute left-1/2 -bottom-10 lg:bottom-0 transform -translate-x-1/2
                    w-full max-w-245 h-85 md:h-135 -z-10 "
                 aria-hidden="true">
                 <Image

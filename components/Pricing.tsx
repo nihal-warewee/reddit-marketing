@@ -4,7 +4,7 @@ import { IoIosStar } from "react-icons/io";
 
 export default function Pricing() {
     return (
-        <section className="relative isolate w-full grid place-items-center pt-20 overflow-x-clip text-white">
+        <section className="relative isolate w-full grid place-items-center py-20 overflow-x-clip text-white">
             <div className="absolute top-1/2 -right-50 h-125 w-125 -z-10
              bg-fuchsia-500/10 rounded-full blur-3xl" />
 
@@ -19,7 +19,7 @@ export default function Pricing() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Card 1 */}
-                    <article className="rounded-2xl bg-white/95 text-slate-900 p-6 border border-gray-200
+                    <article className="rounded-2xl bg-white/95 text-slate-900 p-4 lg:p-6 border border-gray-200
                              shadow-[0_0_28px_rgba(124,58,237,0.45)]">
                         <div className="flex flex-col justify-between">
                             <div className="flex items-center justify-between">
@@ -69,7 +69,7 @@ export default function Pricing() {
                     </article>
 
                     {/* Card 2 */}
-                    <article className="rounded-2xl bg-white/95 text-slate-900 p-6 border border-gray-200
+                    <article className="rounded-2xl bg-white/95 text-slate-900 p-4 lg:p-6 border border-gray-200
                             shadow-[0_0_28px_rgba(124,58,237,0.45)]">
                         <div className="flex flex-col justify-between">
                             <div className="flex items-center justify-between">
