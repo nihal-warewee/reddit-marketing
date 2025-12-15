@@ -24,7 +24,7 @@ export default function Whyus() {
                 <div className="grid lg:grid-cols-2 gap-6 items-center">
                     <div className="">
                         <Image
-                            src="/viewsmetric.png"
+                            src="/viewsmetric.webp"
                             alt="views-metrics"
                             width={1200}
                             height={400}
@@ -34,7 +34,7 @@ export default function Whyus() {
                     </div>
                     <div className="">
                         <Image
-                            src="/growthmetric.png"
+                            src="/growthmetric.webp"
                             alt="growth-metrics"
                             width={1200}
                             height={400}
@@ -49,7 +49,7 @@ export default function Whyus() {
                 <div className="grid lg:grid-cols-2 gap-6 items-center">
                     <div className="flex-1 flex flex-col-reverse lg:block gap-4">
                         <Image
-                            src="/saaslanding.png"
+                            src="/saaslanding.webp"
                             alt="SaaS-landing-page"
                             width={1200}
                             height={400}
@@ -67,7 +67,7 @@ export default function Whyus() {
                             Reddit threads increasingly dominate Google/LLM ranking in many niches).
                         </p>
                         <Image
-                            src="/googleresult.png"
+                            src="/googleresult.webp"
                             alt="Google-results-page"
                             width={1200}
                             height={400}

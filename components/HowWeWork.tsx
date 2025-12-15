@@ -65,7 +65,7 @@ export default function HowWeWork() {
             {/* Background */}
             <div className="absolute inset-0 -z-10">
                 <Image
-                    src="/howweworkbg.jpg"
+                    src="/howweworkbg.webp"
                     alt="how-we-work-background-image"
                     fill
                     className="object-cover opacity-30"

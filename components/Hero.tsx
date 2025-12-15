@@ -34,7 +34,7 @@ export default function Hero() {
                 {/* Image */}
                 <div className="flex-1 w-full max-w-xl lg:max-w-none">
                     <Image
-                        src="/hero.png"
+                        src="/hero.webp"
                         alt="hero-image-png"
                         width={814}
                         height={635}

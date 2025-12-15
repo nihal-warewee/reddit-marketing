@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="max-w-6xl 2xl:max-w-[90%] mx-auto px-8 pt-16 pb-64 lg:pb-90">
 
                 <div className="flex flex-col lg:flex-row gap-5 items-center justify-between">
-                    <Image src={'/logo.png'} alt="warewe-logo-footer" height={70} width={180} />
+                    <Image src={'/logo.webp'} alt="warewe-logo-footer" height={70} width={180} />
 
                     <div className="flex items-center gap-4 text-sm">
                         <span className="text-slate-300">Follow Us</span>
@@ -52,7 +52,7 @@ export default function Footer() {
                    w-full max-w-245 h-85 md:h-135 -z-10 "
                 aria-hidden="true">
                 <Image
-                    src={'/footer-illustration.png'}
+                    src={'/footer-illustration.webp'}
                     alt="footer-illustration"
                     fill
                     className="object-contain"
