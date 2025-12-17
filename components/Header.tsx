@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link"
 import { FiMenu, FiX } from "react-icons/fi";
 
 export default function Header() {
@@ -29,9 +30,9 @@ export default function Header() {
                 </nav>
 
 
-                <button className="hidden md:block bg-violet-600 text-white rounded-lg py-2 px-5 hover:bg-violet-800 transition-colors">
+                <Link target="_blank" href={"https://calendly.com/manaswi-warewe/30min"} className="hidden md:block bg-violet-600 text-white rounded-lg py-2 px-5 hover:bg-violet-800 transition-colors">
                     Book a Call
-                </button>
+                </Link>
 
 
                 <button
@@ -53,9 +54,9 @@ export default function Header() {
                     <li className="hover:text-violet-400 cursor-pointer">Products</li>
                     <li className="hover:text-violet-400 cursor-pointer">Services</li>
 
-                    <button className="mt-2 bg-violet-600 rounded-lg py-2 hover:bg-violet-800 transition-colors">
+                    <Link target="_blank" href={"https://calendly.com/manaswi-warewe/30min"} className="mt-2 bg-violet-600 rounded-lg py-2 hover:bg-violet-800 transition-colors">
                         Book a Call
-                    </button>
+                    </Link>
                 </ul>
             </div>
         </header>

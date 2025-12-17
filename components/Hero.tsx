@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
     return (
@@ -19,12 +20,12 @@ export default function Hero() {
                     </p>
 
                     <div className="pt-6">
-                        <button
+                        <Link target="_blank" href={"https://calendly.com/manaswi-warewe/30min"}
                             className="bg-violet-600 text-white rounded-md py-3 px-8 text-base sm:text-lg
                             hover:bg-violet-800 transition-colors duration-200"
                         >
                             Book a Call
-                        </button>
+                        </Link>
                         <p className="mt-3 text-gray-300 text-sm">
                             (Free consultation. No sales pitch.)
                         </p>
