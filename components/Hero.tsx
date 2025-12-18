@@ -16,7 +16,7 @@ export default function Hero() {
                     </h1>
 
                     <p className="text-gray-200 text-lg sm:text-xl xl:text-2xl max-w-2xl mx-auto lg:mx-0">
-                        Either we generate $50,000+ in revenue or 2× your growth — or you don’t pay.
+                        Either we generate $50,000+ in revenue or 2x your growth — or you don&apos;t pay.
                     </p>
 
                     <div className="pt-6">

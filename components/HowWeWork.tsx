@@ -15,7 +15,7 @@ const cards = [
         title: "On-boarding and Strategy Kick-off",
         bullets: [
             { text: <><strong>Deep dive</strong>: your brand, ideal customer profile (ICP), target keywords, competitive Reddit/thread-landscape.</> },
-            { text: <><strong>Subreddit-audit</strong>: identify 5–10 relevant subreddits, threads ranking in Google, high-karma accounts, plus rules/behaviours for each.</> },
+            { text: <><strong>Subreddit-audit</strong>: identify 5-10 relevant subreddits, threads ranking in Google, high-karma accounts, plus rules/behaviours for each.</> },
         ],
     },
     {
@@ -23,8 +23,8 @@ const cards = [
         Icon: FiEdit2,
         title: "Content Creation and Account Preparation",
         bullets: [
-            { text: "Prepare 5–10 new posts/month (text + optional images/links) aligned to your keywords and Reddit norms." },
-            { text: "Source/prepare 10–20 evergreen thread placements + 10–20 recent-post comments." },
+            { text: "Prepare 5-10 new posts/month (text + optional images/links) aligned to your keywords and Reddit norms." },
+            { text: "Source/prepare 10-20 evergreen thread placements + 10-20 recent-post comments." },
             { text: "Identify high-karma account pool, build posting calendar, ensure account health." },
         ],
     },
@@ -54,7 +54,7 @@ const cards = [
         bullets: [
             { text: "We vet each subreddit's rules in advance." },
             { text: "We maintain account rotation, avoid spammy behaviour, keep posts as genuine contributions." },
-            { text: "We advise transparency and readiness for Reddit’s moderator/community dynamics." },
+            { text: "We advise transparency and readiness for Reddit's moderator/community dynamics." },
         ],
     },
 ];
